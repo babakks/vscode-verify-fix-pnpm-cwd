@@ -13,5 +13,27 @@
                 "isDefault": true,
             },
         },
+        {
+            "label": "start use-npm",
+            "type": "npm",
+            "script": "start",
+            "options": {
+                "cwd": "use-npm"
+            },
+            "group": {
+                "kind": "build",
+            },
+        },
+        {
+            "label": "start use-yarn",
+            "type": "npm",
+            "script": "start",
+            "options": {
+                "cwd": "use-yarn"
+            },
+            "group": {
+                "kind": "build",
+            },
+        },
    ],
 }
